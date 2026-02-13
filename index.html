@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>119-maktabning 2010-yilgi 9-V sinf bitiruvchilari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="logo.svg" alt="119-maktab logo" class="logo">
+                    <div class="header-text">
+                        <h1>9-V zo'r qogani pazor</h1>
+                        <p class="subtitle">119-maktabning 2010-yilgi 9-V sinf bitiruvchilari</p>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <a href="#about">Biz haqimizda</a>
+                    <a href="#students">O'quvchilar</a>
+                    <a href="#teachers">O'qituvchilar</a>
+                    <a href="#memories">Xotiralar</a>
+                    <a href="#location">Maktab</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Bitiruv kunidan beri o'tgan vaqt</h2>
+                <p class="hero-description">2010-yil 25-may, 119-maktab 9-V sinfi bitiruv kunidan beri o'tgan vaqt. Bu sayt bizning do'stlik, ilm va yoshlik yillarimizga bag'ishlangan.</p>
+                
+                <!-- Live Countup Timer -->
+                <div class="countup-timer">
+                    <div class="time-box">
+                        <span class="time-value" id="years">0</span>
+                        <span class="time-label">Yil</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-value" id="months">0</span>
+                        <span class="time-label">Oy</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-value" id="days">0</span>
+                        <span class="time-label">Kun</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-value" id="hours">0</span>
+                        <span class="time-label">Soat</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-value" id="minutes">0</span>
+                        <span class="time-label">Daqiqa</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time-value" id="seconds">0</span>
+                        <span class="time-label">Soniya</span>
+                    </div>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">33</span>
+                        <span class="stat-label">O'quvchilar</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15</span>
+                        <span class="stat-label">O'qituvchilar</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="total-days">5000+</span>
+                        <span class="stat-label">Kun o'tdi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Biz haqimizda</h2>
+            <p class="section-description">
+                Biz 2010-yilda 119-maktabni tamomladik. O'sha paytdan beri ko'pchiligimiz turli yo'llarga kirib ketdik, lekin sinfimizda qoldirilgan xotiralar va do'stlik hali ham yodimizda. Bu sayt bizning birlashish, esga olish va bir-birimiz bilan bog'lanishimiz uchun yaratilgan.
+            </p>
+        </div>
+    </section>
+
+    <!-- Students Grid -->
+    <section id="students" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Bizning sinfdoshlar</h2>
+            <div class="grid" id="students-grid">
+                <!-- Students will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Grid -->
+    <section id="teachers" class="section">
+        <div class="container">
+            <h2 class="section-title">Bizning o'qituvchilar</h2>
+            <div class="grid" id="teachers-grid">
+                <!-- Teachers will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Memories/Videos Section -->
+    <section id="memories" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Xotiralar va videolar</h2>
+            <div class="videos-grid" id="videos-grid">
+                <!-- Videos will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section">
+        <div class="container">
+            <h2 class="section-title">119-ilm dargohi</h2>
+            <p class="section-description">Bizning maktabimiz manzili - Toshkent sh., Nodira ko'chasi, 19</p>
+            <div class="map-container">
+                <!-- Yandex Maps - 119-maktab, Toshkent -->
+                <iframe 
+                    src="https://yandex.uz/map-widget/v1/?ll=69.250131%2C41.340836&z=16&l=map&pt=69.250131,41.340836,pm2rdm" 
+                    width="100%" 
+                    height="450" 
+                    frameborder="0"
+                    style="border:0;">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 119-maktab 9-V sinf. Barcha huquqlar himoyalangan.</p>
+            <p class="footer-note">Sevgi va hurmat bilan yaratilgan 💙</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
