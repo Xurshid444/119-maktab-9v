@@ -653,6 +653,12 @@ body.dark-mode .contact-link:hover {
 
 body.dark-mode .footer {
     background: #0d0d0d;
+    color: #e4e4e4;        
+}
+
+body.dark-mode .footer p {
+    color: #e4e4e4;        
+    opacity: 0.9;
 }
 
 body.dark-mode .section-alt {
