@@ -320,3 +320,33 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+// ========================================
+// DARK MODE FUNCTIONALITY
+// ========================================
+
+// Dark mode toggle
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+// Check for saved dark mode preference
+const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+// Apply saved preference on page load
+if (isDarkMode) {
+    body.classList.add('dark-mode');
+    if (darkModeToggle) darkModeToggle.textContent = '☀️';
+}
+
+// Toggle dark mode
+if (darkModeToggle) {
+    darkModeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        const isDark = body.classList.contains('dark-mode');
+        
+        // Update icon
+        darkModeToggle.textContent = isDark ? '☀️' : '🌙';
+        
+        // Save preference
+        localStorage.setItem('darkMode', isDark);
+    });
+}
