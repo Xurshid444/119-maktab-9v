@@ -132,12 +132,12 @@ const videos = [
     {
         id: 1,
         title: "2010 yil bitiruv marosimi",
-        youtubeId: "zJtEw5mQ_lY" // YouTube video ID (URL'dan keyingi qism)
+        youtubeId: "VurMaFIVR1g" // YouTube video ID (URL'dan keyingi qism)
     },
     {
         id: 2,
         title: "Sinf xotiralari",
-        youtubeId: "Bx_yLttDLqw"
+        youtubeId: "wfEkz5157Bg"
     }
     // Qolgan videolarni qo'shing...
 ];
